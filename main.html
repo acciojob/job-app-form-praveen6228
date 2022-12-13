@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <div>
+      <form action="">
+        <div id="name">
+			<label for="Name"> Name</label>
+			<input type="text" name="fullname" required /></div>
+        <div id="Email">
+			<label for="Email">Email</label>
+          <input type="Email" name="myemail" required />
+        </div>
+        <div id="Gender">
+			<label for="Gender"> Gender</label>
+           Male:<input type="radio" name="gender" /> Female:<input
+            type="radio"
+            name="gender">
+        
+        </div>
+        <div id="laptop"><label for="Laptop Brands">Laptop Brands</label>
+			<select name="Laptop Brands" id="Laptop Brands">
+			<option value="Apple,">Apple,</option>
+			<option value="Asus">Asus</option>
+			<option value="HP">HP</option>
+			</select>
+        <div id="age">
+			<label for="age">Age</label>
+		 <input type="number" name="myage" required>
+		</div>
+        <div id="password">
+			<label for="Password"> Password</label>
+			<input type="password" name="mypassword" required >
+		</div>
+        <div id="dob">
+			<label for="DOB"> DOB</label>
+		<input type="date" name="mydob" required>
+		</div>
+		
+		<div class="portfolio">
+			<label for="enter url">Enter Url</label>
+			<input type="url" name="porfolio-url">
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+		</div>
+		<label for="Submit"></label>
+		<div id="submitbtn">
+			<input type="submit" value="Submit" required>
+		</div>
+	
+      </form>
+    </div>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
