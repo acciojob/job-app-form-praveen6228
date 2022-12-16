@@ -7,48 +7,48 @@
 
   <body>
     <div>
-      <form action="">
-        <div id="name">
+      <form action="" method="get">
+        <div>
 			<label for="Name"> Name</label>
-			<input type="text" name="fullname" required /></div>
-        <div id="Email">
+			<input type="text" id="name" name="fullname" required /></div>
+        <div>
 			<label for="Email">Email</label>
-          <input type="Email" name="myemail" required />
+          <input type="Email" id="email" name="myemail" required />
         </div>
-        <div id="Gender">
+        <div>
 			<label for="Gender"> Gender</label>
-           Male:<input type="radio" name="gender" /> Female:<input
+           Male:<input id="gender" type="radio" name="gender" required /> Female:<input id="gender2"
             type="radio"
-            name="gender">
+            name="gender" required />
         
         </div>
-        <div id="laptop"><label for="Laptop Brands">Laptop Brands</label>
+        <div><label for="Laptop Brands">Laptop Brands</label>
 			<select name="Laptop Brands" id="Laptop Brands">
 			<option value="Apple,">Apple,</option>
 			<option value="Asus">Asus</option>
 			<option value="HP">HP</option>
 			</select>
-        <div id="age">
+        <div>
 			<label for="age">Age</label>
-		 <input type="number" name="myage" required>
+		 <input type="number" id="age" name="myage" required />
 		</div>
-        <div id="password">
+        <div>
 			<label for="Password"> Password</label>
-			<input type="password" name="mypassword" required >
+			<input type="password" id="password" name="mypassword" required />
 		</div>
-        <div id="dob">
+        <div>
 			<label for="DOB"> DOB</label>
-		<input type="date" name="mydob" required>
+		<input type="date" id="dob" name="mydob" required />
 		</div>
 		
-		<div class="portfolio">
+		<div>
 			<label for="enter url">Enter Url</label>
-			<input type="url" name="porfolio-url">
+			<input type="url" id="portfolio" name="porfolio-url" required />
 
 		</div>
 		<label for="Submit"></label>
-		<div id="submitbtn">
-			<input type="submit" value="Submit" required>
+		<div>
+			<input type="submit" id="submit" value="Submit" required />
 		</div>
 	
       </form>
